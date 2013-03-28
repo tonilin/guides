@@ -35,7 +35,7 @@ make apps have sudo power
 ### Install ruby
 
 ```
-curl -L https://get.rvm.io | bash -s stable --ruby
+curl -#L https://get.rvm.io | bash -s stable --autolibs=3 --ruby
 source /home/apps/.rvm/scripts/rvm
 ```
 
